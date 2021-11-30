@@ -8,10 +8,6 @@ def canUnlockAll(boxes):
     """ Write a method that determines if all the boxes can be opened.
     @boxes is a list of lists
     """
-
-    if not boxes or type(boxes) is not list:
-        return False
-
     unlocked = [0]
     for n in unlocked:
         for key in boxes[n]:
