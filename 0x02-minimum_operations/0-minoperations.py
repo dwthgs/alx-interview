@@ -6,7 +6,7 @@ def minOperations(n):
     """ Return: total """
     t, m = 0, 2
     while n > 1:
-        while n % m == 0:
+        while not n % m:
             t += m
             n /= m
         m += 1
