@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""island_perimeter"""
+"""5-island_perimeter module"""
 
 
 def island_perimeter(grid):
@@ -20,4 +20,3 @@ def island_perimeter(grid):
                 if i == length or grid[i + 1][j] != 1:
                     c += 1
     return c
-
